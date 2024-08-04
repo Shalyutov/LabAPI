@@ -16,10 +16,10 @@
     }
     public class BinaryIndicator(int id, string fullName, string? shortName, string? comment, Test test, bool reference) : Indicator(id, fullName, shortName, comment, test)
     {
-        public bool Measure { get; set; } = reference;
+        public bool Reference { get; set; } = reference;
     }
     public class TextIndicator(int id, string fullName, string? shortName, string? comment, Test test, string reference) : Indicator(id, fullName, shortName, comment, test)
     {
-        public string? Text { get; set; } = reference;
+        public string? Reference { get; set; } = reference;
     }
 }

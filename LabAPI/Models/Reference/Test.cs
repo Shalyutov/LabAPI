@@ -15,4 +15,5 @@
         public IEnumerable<Indicator> Indicators { get; set; } = [];
         public IEnumerable<Service> Services { get; set; } = [];
     }
+    public record TestPrice(Test Test, DateOnly Issued, double Cost);
 }
