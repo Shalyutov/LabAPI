@@ -1,6 +1,13 @@
+
+
+###
 @LabAPI_HostAddress = http://localhost:5189
 
-GET {{LabAPI_HostAddress}}/weatherforecast/
-Accept: application/json
+POST http://{{LabAPI_HostAddress}}/api/Biomaterial
+Content-Type: application/json
+
+{
+  "Name": "Венозная кровь"
+}
 
 ###
