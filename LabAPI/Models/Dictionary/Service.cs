@@ -1,4 +1,4 @@
-﻿namespace LabAPI.Models.Reference
+﻿namespace LabAPI.Models.Dictionary
 {
     public class Service
     {
@@ -6,5 +6,4 @@
         public required string FullName { get; set; }
         public string? ShortName { get; set; }
     }
-    public record ServicePrice(Service Service, DateOnly Issued, double Cost);
 }

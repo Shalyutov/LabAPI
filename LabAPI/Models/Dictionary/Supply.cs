@@ -1,6 +1,4 @@
-﻿using LabAPI.Models.Laboratory;
-
-namespace LabAPI.Models.Reference
+﻿namespace LabAPI.Models.Dictionary
 {
     public class Supply
     {
@@ -11,5 +9,5 @@ namespace LabAPI.Models.Reference
         public required Biomaterial Biomaterial { get; set; }
         public int Volume { get; set; }
     }
-    public record SupplyAccountRecord(Supply Supply, int Value, DateTime Issued, MedicalCenter MedicalCenter);
+    
 }

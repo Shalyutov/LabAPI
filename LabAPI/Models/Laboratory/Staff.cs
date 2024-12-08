@@ -1,4 +1,4 @@
-﻿using LabAPI.Models.Reference;
+﻿using LabAPI.Models.Dictionary;
 
 namespace LabAPI.Models.Laboratory
 {

@@ -1,4 +1,4 @@
-﻿namespace LabAPI.Models.Reference
+﻿namespace LabAPI.Models.Dictionary
 {
     public class StaffQualification
     {

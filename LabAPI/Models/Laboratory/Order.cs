@@ -6,5 +6,6 @@
         public DateTime Created {  get; set; }
         public double Discount { get; set; }
     }
-    public record PromoCode(string Code, double Amount, DateOnly Expires, Order? Order)
+
+    public record PromoCode(string Code, double Amount, DateOnly Expires, Order? Order);
 }
